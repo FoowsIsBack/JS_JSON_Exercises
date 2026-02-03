@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    gap: 50%;
+    margin-left: 5%;
+}
+
+.clicker{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(150, 12, 12);
+}
+
+.result1{
+    border: 1px solid black;
+    width: 15%;
+    border-radius: 10px;
+    margin-left: 42%;
+    margin-top: 1%;
+}
+
+p{
+    font-weight: bold;
+    margin-left: 5px;
+}
